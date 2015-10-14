@@ -1,0 +1,282 @@
+Colours is aimed to be card games distilled. Each color reperesents a core card game mechanic that can grow or shrink as the game progresses. The main component of Colour are the color cards. They consist of 251 cards with unique combinations of the Red, Green, White, Blue, and Black. Each color representing an aspect of card games:
+
+Red = How much damage is dealt
+Green = How many resources are generated
+White = How much damage is prevented
+Blue = how many cards are drawn
+Black = How many cards you can keep in your hand
+
+All of this is brought together by the role cards. Role cards represent the player and changes one aspect of the game or how the colors function.
+
+Basic Role
+
+Starts with 2 in each color, no other rule
+
+Name
+Art
+Starting Color totals
+(Health ?)
+Ability 1
+Ability 2
+Ability 3
+
+
+
+I've added another project into my rotation. Its a very simple game with some layers of hidden complexity (checkers on the surface is a simple game). I am having issues writing out the rules. My previous projects toed the line of convoluted|complex. With this, only 1 static card type has any text what so ever
+
+Which is the better pivot
+Damage ratios
+Starting health
+Gain Ratios
+
+which should be on role cards, which should be standardized
+
+seperate health?
+
+Win Conditions
+20 of 1 color
+3 colors to 10 (very scrolls)
+3 colors to 0 (Scrolls, at one one point, if I get blue to 0 can they build up? at double the cost (if you start a turn with 0 in X colors, loss))
+Take 1 color to 0?
+Reduce life from 30 to 0 (in conjuction with loosing colors as another loss)
+Win by maxing out X colors 
+Should there only be loss conditions?
+
+
+Turn Phases:
+
+Choose one color, increase the pool by 1
+Draw blue
+Generate green
+Deal red
+Heal white
+Discard down to black
+
+Role cards:
+Health possibly?
+Damage ratio
+abilities
+starting pools
+
+
+Red: True damage
+White: Healing
+Black: Handsize
+Blue: draw
+Green: resource
+
+
+
+Color pool = 5 separate counters, one per color.
+
+Resource = at the start of your resource phase generate resources based on the green ratio on your role card
+Color cards = the main component. Costs 1 resource to play per color block on the card. 
+
+
+30 slot mandatory
+2 max of a single combo
+Base role = 2/2/2/2/2 1:1 (damage = 2:1 or 3:1 ?)
+ 
+Balancing 2:1 3:1 4:1  max
+2u=draw 1
+2b=discard to 1
+2w=mitigate 1
+2g=resource 1 (problem?)
+2r=deal 1
+ 
+1:1
+ 
+2u = draw 2 (gb balances)
+2b = keep 2 (ug balances)
+2w = prevent 2 (2 r balances)
+2g = generate 2 (bu balances)
+2r = deal 2 (2 w balances)
+ 
+ 
+Turn order:
+ 
+Blue (draw based on ratio)
+Green (generate based on ratio and spend, reset to 0 pool.)
+Red ( deal any where based on ratio)
+Black ( discard based on ratio)
+White (opponents turn mitigates across all individual colors based on ratio)
+ 
+Sample Turn 1:
+ 
+P1: 2u 2b 2w 2g 2r
+P2:
+Draws 2: (g) (rbu)
+Generates 2: spends 1 (g)| 1 dealt to p2 g | p1 increases g by +1
+Damage 2: deals 2 to p2 green (3 dealt to p2; white2 mitigates 2; 1 dmg floating doesn’t meet 2:1 ratio) 
+Discard to 2: cards in hand < b2 , no discard needed
+ 
+ 
+Have to pass white threshhold in 1 shot
+20 of one color
+ 
+Ratio's on role cards (1:1 = powerful or crazy handicap) 3:1 = norm, 2:1 = above average. Each damage dealt is 1 less color that you get
+White can be life gain
+Red is damage
+Abilities provide armor
+ 
+If at 0 green, what can you do?
+ 
+Start game with 1 in each? (bare minimum cannot be reduced to 1 (foundation resources?))
+ 
+This makes 1 cost G essential
+ 
+Rework G as a resource
+
+Catalyst – At the start of the game you choose 1 of 11 catalysts. This unit serves as the backbone to your party. They can increase in level, gain new abilities, and switch classes (1 class per tier). For each level your catalyst gains Increase your maximum party size by 2 levels as well as multiply its base stats by its level (if Its base stats are 5HP 2 INI 3 AP and the catalyst is now level 3, then there current stats before modifiers is 15HP 6 INI and 9 AP). If your catalyst is killed during combat (being reduced to 0 HP or otherwise) Place it at a starter location (marked with a star). Search your deck for 5 levels in units (do not count your catalyst level into your maximum party size).Lose half your remaining gold rounded up (turn the quests sideways as if spent). Shuffle your former party and their equipment back into your deck. They have disbanded and ran through your pockets!
+
+Name:
+Race:
+Abilities:
+Stat distribution:
+Quote (Flavor text):
+Starting stats: combine with stat distribution totals. So eliminate this stat.
+
+Building a Deck
+Deck – Your main deck, it is made up of the following card types, Quests, Units, and Equipment. The minimum deck size is 80 (60) cards. You can have no more than 3 2 of a single card.
+
+Deck – Your main deck, It is made up of the following card types, Quests, Units, and Equipment. The minimum deck size is 80 (60) cards. You can have no more than 3 of a single card.
+
+Dice – 2D6 used in combat and various card mechanics.
+
+Unit Ability Types
+Ability types and usage – There are 3 ability types that determine when an ability can be played or if it is persistent.
+Passive – Always active, always check if it applies to the current situation
+Aggressive – Must have a valid target, pay the cost and then resolve any valid defensive action the defensive player chooses as a response. After the defensive action is resolved (if there is any at all) then resolve the Aggressive action.
+Defensive – Used in response to an Aggressive action. Resolve the Defensive action first and then the Aggressive action last.
+
+Golden Rule
+[Card text > anything in this book]
+
+Playing a Game (Steps)
+You've just bought your first two decks of Monad Wars, and you're ready to play. You should probably read through the rules first, and then come back to this page. Most of the basic information you need to play the game is right here. Page numbers in parentheses tell you where to go for more information on each topic.
+
+Game play starts by setting aside 7 levels worth of Unit cards. In addition to your "Catalyst" hero card. Also set aside your Hero's chosen class card. Place a marker on the class card to select your starting class ability. This also represents your hero's level as well as the one ability of your choice you gain per level. Each player also sets aside their scenario card and places it face down in front of their deck.
+ 	
+	Players each roll 2D6. The player with the highest roll plays first. The player who plays second chooses a location that is marked with the starter Icon "star" and places their units in a formation (see formation section) of their own choosing at that location. This continues counter clockwise until the player who goes first does the same. Players cannot choose the same starting location. All Players now flip their scenario cards face up. Players now draw a hand of 8 cards and play starts with the player who had the highest roll.
+
+Begin your turn by removing 1HP and 1AP counter from each non-token unit. You'll want to look at your hand for any quest cards you possess. You will then choose a location card that shares at least one region symbol as your current location as your destination. Put that card on the table in front of your party. After moving, the closest opponent to your right (Encounter Player) may play Units and equipment equal in total level to the encounter rating of your current location. Resolve combat as you would normally. If there are no enemy units at the active party’s current location, the active player may play a quest card that is equal to or less than the hazard rating of the location in level. The closest opposing player on your left (Quest Handler) plays units and equipment equal to or less in level to the level printed on the quest card. Resolve combat as you would normally. If you chose to resolve your active scenario instead, then follow the directions printed on the Scenario card. Upon the successful completion of a quest, you move the quest card into your completed quest pile. From there you will be able to use them to generate gold and after you have completed enough quests you can turn them in to increase your catalysts level.
+
+You are now able to use non-combat abilities and abilities on your current location card. Finally, resolve any remaining effects in play. The active player may choose to discard one card, then all players draw up to their maximum hand size of 8. The next player clockwise begin their turn and you become the “Encounter Player”.
+
+Play proceeds this way until one player accumulates 5 VP.
+
+Remember, Monad Wars is a game of action and reaction, planning and improvisation. But in the beginning, it's simply a matter of doing what you can. You'll probably have to play through a duel or two before you get the hang of it. Once you figure it out, though, you'll see that the rules are simple; it's the interactions between cards that are complex and interesting.
+
+Things You Will Need
+Deck – Your main deck, It is made up of the following card types, Quests, Units, and Equipment. The minimum deck size is 80 (60) cards. You can have no more than 3 of a single card.
+
+Location cards – This forms a separate deck from you deck (different card backing). It consists of the locals you can visit in Anathema. You may freely browse this deck at any time. It is recommended that you posses all location cards up to the most recent expansion. This deck can be any size.
+
+
+Token cards - Some quests, units, equipment, scenarios will ask for you to put specific tokens into play. These should remain in a freely browsable pile when not in use.
+
+Dice – 2D6 used in combat and various card mechanics. The probability on a 2D6 is as follows:
+
+
+2 – 2.77
+3 – 5.55
+4 – 8.33
+5 – 11.11
+6 – 13.88
+7 – 16.66
+8 – 13.88
+9 – 11.11
+10 – 8.33
+11 – 5.55
+12 – 2.77
+
+The sweet spot where people want to get their rolls is at least a 7 to succeed.
+
+Counters – It is mandatory that you have a way to visually track a Units HP and AP. It is recommended that you have tokens that stand for different intervals (Penny = 1, Nickel = 5, Quarter = 25)
+Parts of a Turn
+Turn phases – A players turn progresses in the following phase order:
+
+1.	Recovery Phase
+	Each unit recovers 1HP and 1 AP. Token Units do not.
+
+ 2.	Travel Phase
+	You may travel to another location that shares the same region symbol as your current location. You may NOT travel if there are opposing units or monsters at your current location. You may choose to "Run". If so every opposing unit or monster gets to 
+take a single combat action. After these actions are taken, you may move
+as normal. Since they were not defeated your opponent then shuffles any units or monsters that were played due to you moving (random encounter) or playing a quest back into their deck Then draws that many cards immediately (running is a bad thing certain cards can enhance / change this rule / increase its severity).
+
+3.	Random Encounter Phase >
+	After moving, The closest opponent to your right may play Units and equipment equal in total level to the hazard rating of your current location (Random Encounter). Resolve combat as you would normally.
+
+   Most locations will reduce the cost of certain types of units when played as hazards (random and quest).
+
+	Shuffle all cards played as a hazard into their owner's deck.
+
+4.    Encounter and Quest phase <
+	If there are no enemy units at the active parties current location, the active player may play a quest card that is equal to or less than the hazard rating of the location in level. The closest opposing player on your left (Quest Handler) plays units and equipment equal to or less in level to the level printed on the quest card. Resolve combat as you would normally. If you chose to resolve your active scenario instead, then follow the directions printed on the Scenario card.
+
+  Shuffle all cards played as a hazard into their owner's deck.
+
+ 5.	Provision Phase
+	During this phase, the active player can use non-combat unit abilities and abilities based on location. This includes abilities placed on location cards.
+
+6.	End phase
+	Resolve any remaining effects in play. The active player may choose to discard one card and then all players draw up to their maximum hand size of 8.
+
+Opponents Turn
+[Game from Encounter and Quest Handlers perspective]
+Alternate Game Types
+1.	Tournament Play
+The first player to 5 VP wins. At the end of the round (1 hour) the player with the most VP wins that game. If both players have the same VP total than it is a draw.
+1.	Multiplayer
+Two headed giant – Players play as a team of catalyst working together. Each Catalyst and their party can move freely as they normally would (does not have to be at the same location). When they are at the same location at the start of the combat before hazards are play they can fight as a team, if this is the case then combine formations. Play through combat as you normally would. Players may trade Equipment when at the same location.
+
+Free for all – The rules already incorporate this play style. When multiple parties are at the same location you can attack any other party there as you see fit.
+
+Dota Mode (2 Players (add on)) - Choose 5 Units and assign each a class card (if they are a catalyst or otherwise). Every 3 turns each player draws 4 units from a unit (specific tokens?) deck and places them into formation. Place a tower token into each lanes 3rd row. If you destroy a tower, your random unit total increases by 1. Every turn a unit is in a lane place a lvl token on them. Remove 5 lvl tokens to gain a level. Killing an enemy unit grants 3 lvl tokens. After a player loses 2 towers in a lane, that lane may now attack their base. Center lane grants more xp. Last hitting and deny. Costs 2 AP to switch 1 lane. (Defense of the Kitchen Table)
+
+Gladiator Mode (Are you not entertained) - 4 way combat. Each player adds up total team INI, player with the higest (+rolls) goes first. Whole team takes action in INI order. No aggressive actions first turn. Special objectives / arena location cards (Team perks? This team regens 3 AP each turn, -5 to AR values?).
+
+Solo - Solo Game.
+
+Campaign Mode - Week long game.
+	Drafting
+	Multiplayer
+Glossary
+Tough # - subtract this number from damage after equipment modifiers are added. Soak. Damage Reduction. DR.
+Steady # - If an ability would involuntarily move this unit, subtract its steady value and move it that many space according to that total.
+Serenity # - While at a wilderness location this unit regains their serenity value in AP at the beginning of each round.
+Elusive # - This unit counts as being # rows back for defensive purposes. With the maximum of the back row.
+Corrosion # - On a successful attack, place # of corrosion tokens on a piece of equipment the target is carrying. If an item has >= corrosion tokens to its item level then destroy it. Remove the tokens after combat.
+Reach # - This units can target units # spaces away. Rowdy, Damage boost instead.
+Regen # - At the beginning of a round heal # damage from this unit.
+Pathfinder # - When traveling subtract the highest pathfinding total in your party from the Hazard rating of the location. Your opponents will use this new total when playing random encounters. (Need to change for aura, maybe a to hit buff), mob mentality (bonus for each skarn (or unit that shares a level with it) to hit and or damage).
+Undying # - When this unit is destroyed, shuffle it back into your deck with # number of attached equipment. (Give them mortal strike instead?), Mortal strike (Disease) If a unit hit by mortal coil receives healing before this units next turn, subtract X from it.
+Arrogant # - Subtract # levels from anyone defending against or attacking this unit for combat purposes. Change to poisoner?
+Resistant # - For Magic checks this unit uses its Max AP instead of current.
+
+Hidden - This unit cannot be targeted by a unit with lower INI. End if this unit moves or performs any action.
+Critical # - Deal an additional # times the listed damage.
+Miss - An attack that is not successful.
+Hit - A successful attack.
+
+Enfeeble # - Reduces dealt damage until after the targets next turn.
+Haze # - Reduces targets range
+Pinned - Don't move!
+Slow # - Minus target’s INI until their next turn!
+Haste # - Increases Targets INI!
+Push # - Moves target away from user!
+Pull # - Moves the target closer to the user!
+Daze # - Increases the AP cost of the target’s abilities until after their next turn. !
+Debilitate # - minus all stats
+Marker # - + to hit
+Shield # - Buffer against x type of damage
+Precision # - Crit range
+Aura # - grants this benefit/debuff to affected units
+Excavate # - Roll 2d6, on the result of the number listed complete the effect.
+Native # - Units of X type are considered # levels lower for meeting Hazard limits.
+Human Nature - Gains 6 stats per level
+
+Activation (a units turn)
+Hazard = change to encounter
+Token = lvl is stated in the card that grants the token, armor rating is = to its level. Cards that reduce level also affect its armor.
+
