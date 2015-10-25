@@ -1,17 +1,68 @@
-.. OGFW documentation master file, created by
-   sphinx-quickstart on Mon Oct 19 13:50:21 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+=============
+TCG Framework
+=============
 
-Welcome to OGFW's documentation!
-================================
+.. note::
+	This document is intended to document the use of these frameworks, as well as items and rulesets created using these frameworks. These frameworks are licensed under the Creative Commons. 
 
 Contents:
 
+.. _Intro:
+
 .. toctree::
    :maxdepth: 2
+   :caption: Introduction
+
+   About
+   What is OGFW
+
+.. _Colour:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Colour
+
+   Intro
+   Scripts
+   Components
+   Use Cases
+
+.. _ACG:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Adventure Card Game
+
+   ACG <ACG/index>
+   Card Types 
+   Components 
+   Mathmatics 
+   Keywords
+   Movement
+   Encounters
+   Scenarios
+   Design
+
+.. _Community:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Community
+
+   Voting
+   Sharing
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Misc
+
+   Print
+   Git
+   Tool Stack
+
+.. ToDo::
+   Working on Directory Structure. Flesh out further.
 
 Indices and tables
 ==================
