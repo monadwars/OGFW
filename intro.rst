@@ -283,8 +283,8 @@ Toki (A Promise Made)
 
 All damage dealt is considered true damage when you have 4 colors at 1
 
-.. |image0| image:: media/image1.png
-.. |image1| image:: media/image2.png
-.. |image2| image:: media/image3.png
-.. |image3| image:: media/image4.png
-.. |image4| image:: media/image5.png
+.. |image0| image:: Colour/Cards/1_3.bmp
+.. |image1| image:: Colour/Cards/2_05.bmp
+.. |image2| image:: Colour/Cards/3_16.bmp
+.. |image3| image:: Colour/Cards/4_33.bmp
+.. |image4| image:: Colour/Cards/5_050.bmp
