@@ -22,10 +22,10 @@ Contents:
    :maxdepth: 2
    :caption: Colour
 
-   Intro
-   Scripts
-   Components
-   Use Cases
+   intro
+   scripts
+   components
+   use Cases
 
 .. _ACG:
 
