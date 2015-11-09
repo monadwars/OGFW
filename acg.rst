@@ -1,5 +1,6 @@
 TOC \\t "Chapter Title, 1,Section Title, 2"
 
+Preface PAGEREF \_Toc \\h 2
 
 Credits PAGEREF \_Toc1 \\h 2
 

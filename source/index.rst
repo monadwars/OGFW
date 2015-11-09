@@ -33,7 +33,7 @@ Contents:
    :maxdepth: 2
    :caption: Adventure Card Game
 
-   ACG <ACG/index>
+   acg
    Card Types 
    Components 
    Mathmatics 
